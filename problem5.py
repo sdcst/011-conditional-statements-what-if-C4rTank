@@ -29,3 +29,22 @@ Enter c: 8
 the equation can not be factored
 
 """
+
+import math
+
+a = float(input("Please input a number for a: "))
+b = float(input("Please input a number for b: "))
+c = float(input("Please input a number for c: "))
+
+b2 = math.pow(b,2)
+
+st1 = 4 * a * c
+dis = b2 - st1
+
+if dis == 0 or dis > 1:
+    print("The equation can be factored!")
+
+elif dis < 1:
+    print("The equation can not be factored!")
+
+#done

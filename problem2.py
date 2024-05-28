@@ -10,3 +10,17 @@
 # Outputs:
 # "the number is an integer"
 # "the number is not an integer"
+
+import numbers
+
+num = input("Please input a random number! :")
+
+if num.isdecimal():
+	print("The number is an integer!")
+else:
+	print("The number is not an integer!")
+
+
+
+
+#done

@@ -20,3 +20,17 @@ positive
 Enter a number: -1.2
 negative
 """
+
+num = input("Input a random number :")
+
+num = float(num)
+
+if num > 0:
+    print(num,"is a positive!")
+elif num < 0:
+    print(num,"is a negative")
+else: 
+    num == num
+    print(num,"is a 0")
+
+#done

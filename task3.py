@@ -31,3 +31,23 @@ Enter a number: 10000
 
 
 """
+
+num = input("Input a random number :")
+
+num = float(num)
+
+if 0 < num < 100:
+    print("0")
+
+elif num == 10 or num < 100:
+    print("1")
+
+elif num == 100 or num < 1000:
+    print("2")
+
+elif num >= 1000:
+    print("3")
+
+#done
+
+

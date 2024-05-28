@@ -24,7 +24,7 @@ that is a right triangle
 Enter one side: 13.01
 Enter a second side: 5
 Enter third side: 12
-that is a right triangle
+that is a obtuse triangle
 
 Enter one side: 5
 Enter a second side: 15
@@ -33,3 +33,49 @@ that is an obtuse triangle
 
 
 """
+
+import math
+
+a = float(input("Please input a number for the 1st side of a triangle: "))
+b = float(input("Please input a number for the 2nd side of a triangle: "))
+c = float(input("Please input a number for the 3rd side of a triangle: "))
+
+a2 = pow(a,2)
+b2 = pow(b,2)
+c2 = pow(c,2)
+
+hyp = max(a2,b2,c2)
+
+if c2 == hyp:
+    if a2 + b2 > c2:
+        print('that is a acute triangle')
+    if a2 + b2 == c2:
+        print('that is a right triangle')
+    if a2 +b2 < c2:
+        print('that is a obtuse triangle')
+
+if b2 == hyp:
+    if a2 + c2 > b2:
+        print('that is a acute triangle')
+    if a2 + c2 == b2:
+        print('that is a right triangle')
+    if a2 +c2 < b2:
+        print('that is a obtuse triangle')
+
+if a2 == hyp:
+    if c2 + b2 > a2:
+        print('that is a acute triangle')
+    if c2 + b2 == a2:
+        print('that is a right triangle')
+    if c2 +b2 < a2:
+        print('that is a obtuse triangle')
+
+
+#done
+
+
+
+
+
+
+

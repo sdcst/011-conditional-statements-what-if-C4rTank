@@ -19,3 +19,17 @@ The number is 100
 Enter a number: 102
 The number is larger than 100
 """
+
+num = input("Input a random number: ")
+
+num = float(num)
+
+if 100 < num:
+    print(num,"is greater than 100!")
+elif 100 > num:
+    print(num,"is NOT greater than 100!")
+else: 
+    100 == 100
+    print(num,"is 100")
+
+#done
